@@ -1,0 +1,25 @@
+.Main{
+    display: flex;
+    flex-direction: row;
+    font-size: 1.6rem;
+}
+
+.lef{
+    flex: 0 1 35%;
+    border-right: 2px solid #ccc;
+}
+
+.right{
+    flex: 0 1 65%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.song{
+    width: 100px;
+    height: 150px;
+    background-color: antiquewhite;
+    box-shadow: 0 0 10px brown;
+    margin: 1rem;
+}
